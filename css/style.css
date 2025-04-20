@@ -23,6 +23,18 @@ body {
 
 /* || SPECIFIC */
 
+.skip-link {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  background-color: #ffbe0b;
+  color: #000;
+  z-index: 999;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
 /* header */
 header {
   display: relative;
