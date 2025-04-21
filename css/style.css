@@ -212,7 +212,7 @@ article#contribute .container ol li::before {
   border: 3px solid #e37b7bec;
 }
 
-/* footer */
+/* Footer */
 
 footer {
 display: block;
@@ -274,7 +274,6 @@ footer.page-footer ul li a svg {
   fill: currentColor;
 }
 
-/* Footer bottom text */
 footer.page-footer p {
   max-width: 65ch;
   margin: 0.5rem auto;
