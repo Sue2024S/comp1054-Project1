@@ -13,39 +13,79 @@ body {
   }
 
 /* container */
-  .container {
-    margin: 2rem auto;
-    max-width: 960px;
-    padding: 0 1rem;
-  }
+.container {
+margin: 2rem auto;
+max-width: 960px;
+padding: 0 1rem;
+}
 
+/* button containing star svg  */
+header a svg,
+footer a svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: currentColor;
+}
 
+header a,
+footer a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+header a:hover,
+footer a:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+}
 
 /* || SPECIFIC */
 
 .skip-link {
   position: fixed;
-  top: 0.5rem;
-  left: 0.5rem;
+  top: 1rem;
+  left: 1rem;
   background-color: #ffbe0b;
   color: #000;
   z-index: 999;
   text-decoration: none;
   font-weight: bold;
+  text-align: center;
   border-radius: 1rem;
+  height: 35px;
+  width: 180px;
+   
 }
 
 /* header */
 header {
   display: relative;
   padding-top: 4rem;
+/* background */
+  background-image: url('/img/back.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
 }
 
 /* nav bar */
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
+  height: auto;
   background-color: #63b9e8d3;
   padding: 1rem 0;
   z-index: 10;
@@ -71,6 +111,11 @@ transition: color 0.3s;
 
 nav a:hover {
 color: #ff500b; 
+}
+
+section.container,
+article {
+  scroll-margin-top: 80px;
 }
 
 
