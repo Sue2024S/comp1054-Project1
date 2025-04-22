@@ -78,7 +78,7 @@ header {
   padding-top: 4rem;
 
 /* background */
-  background-image: url("./img/back.png"); /*image made by Arantxa Larrea from https://www.behance.net/gallery/103485261/Home-Peruvian-Rainbow-Mountain-Illustration */
+  background-image: url("../img/back.png"); /*image made by Arantxa Larrea from https://www.behance.net/gallery/103485261/Home-Peruvian-Rainbow-Mountain-Illustration */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -237,6 +237,67 @@ footer.page-footer p:first-of-type {
   margin-bottom: 1.5rem;
   font-weight: bolder;
 }
+
+/* files container */
+#files .container,
+.profile .container {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 1.5rem;
+} 
+
+#files {
+  background-color: #f077c1; 
+  color: #fdfdfd;
+   
+}
+
+#files h3, #profile-title{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* links as buttons */
+#files a, .profile a:last-of-type {
+  display: inline-block;
+  background-color: #63b9e8d3;
+  color: #f4f6f9;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+#files a:hover {
+  background-color: #ff500b;
+}
+
+/* profile aside/ currently staged style*/
+.profile {
+  background-color: #ef3f68; 
+  color: #dbd9da;
+  padding: 0.25rem 1rem;
+  text-align: center;
+
+}
+
+.profile ul {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  gap: 1rem 2rem;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
 
 /* Footer list */
 footer.page-footer ul {
