@@ -5,12 +5,28 @@
 
 /* || GENERAL STYLES */
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Didact Gothic", sans-serif;
-    line-height: 1.6;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: "Didact Gothic", sans-serif;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  background: #e86868;
+  background-image: linear-gradient(145deg, #f74b4b 0%, #e75d5de4 100%);
+  background-attachment: fixed;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr min(90ch, 100%) 1fr;
+  background: transparent;
+  padding: 2rem 0;
+}
 
 /* container */
 .container {
@@ -74,7 +90,8 @@ footer a:hover {
 
 /* header */
 header {
-  display: relative;
+  display: absolute;
+  position: relative;
   padding-top: 4rem;
 
 /* background */
@@ -155,7 +172,7 @@ padding: 10px;
 }
 
 nav a:hover {
-color: #ff500b; 
+color: #e86868; 
 }
 
 section.container,
@@ -200,7 +217,7 @@ article#contribute .container ol li::before {
   top: -2.8rem;
   left: 50%;
   transform: translateX(-50%);
-  background: #e37b7bec;
+  background: #63b9e8d3;
   color: white;
   border-radius: 50%;
   width: 2.5rem;
@@ -221,7 +238,6 @@ display: block;
 .page-footer {
   position: relative;
   background-color: #63b9e8d3;
-  background-image: linear-gradient(4deg, var(#83c0e1d3) -80%, transparent);
   color: white;
   text-align: center;
   padding: 2.2rem 1rem;
@@ -275,8 +291,8 @@ footer.page-footer p:first-of-type {
   transition: background-color 0.3s;
 }
 
-#files a:hover {
-  background-color: #ff500b;
+#files a:hover, .profile a:last-of-type:hover, #styles a:last-of-type:hover {
+  background-color: #e86868;
 }
 
 /* profile aside/ currently staged style*/
@@ -311,7 +327,6 @@ footer.page-footer p:first-of-type {
   flex-wrap: wrap;
   justify-content: center
 }
-
 
 /* Footer list */
 footer.page-footer ul {
@@ -367,3 +382,4 @@ footer.page-footer p {
     flex: 1 1 100%;
   }
 }
+
