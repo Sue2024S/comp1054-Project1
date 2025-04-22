@@ -78,7 +78,7 @@ header {
   padding-top: 4rem;
 
 /* background */
-  background-image: url('../img/back.png'); /*image made by Arantxa Larrea from https://www.behance.net/gallery/103485261/Home-Peruvian-Rainbow-Mountain-Illustration */
+  background-image: url('https://sue2024s.github.io/comp1054-Project1/img/back.png'); /*image made by Arantxa Larrea from https://www.behance.net/gallery/103485261/Home-Peruvian-Rainbow-Mountain-Illustration */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
