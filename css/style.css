@@ -261,7 +261,7 @@ footer.page-footer p:first-of-type {
 }
 
 /* links as buttons */
-#files a, .profile a:last-of-type {
+#files a, .profile a:last-of-type, #styles a:last-of-type{
   display: inline-block;
   background-color: #63b9e8d3;
   color: #f4f6f9;
@@ -296,17 +296,26 @@ footer.page-footer p:first-of-type {
   list-style: none;
   padding: 0;
   margin-bottom: 2rem;
+} 
+
+/* featured styles */
+#styles {
+  padding: 4rem 2rem;
+  background: white;
+  text-align: center;
+}
+
+#styles li {
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center
 }
 
 
 /* Footer list */
 footer.page-footer ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 0;
-  margin: 0 0 2rem;
+  display: inline-block;
   list-style: none;
 }
 
