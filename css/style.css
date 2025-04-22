@@ -264,7 +264,7 @@ footer.page-footer p:first-of-type {
 } 
 
 #files {
-  background-color: #f077c1; 
+  background-color: #f5add9d8; 
   color: #fdfdfd;
    
 }
@@ -317,7 +317,6 @@ footer.page-footer p:first-of-type {
 /* featured styles */
 #styles {
   padding: 4rem 2rem;
-  background: white;
   text-align: center;
 }
 
